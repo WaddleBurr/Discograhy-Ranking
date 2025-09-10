@@ -4,13 +4,13 @@
       <meta charset="UTF-8">
       <title>Discography Rankings</title>
       <style>
-     nostar{
+     .nostar{
         color:grey
      }
-     star{
+     .star{
         color: blue
         }
-      superstar{
+      .superstar{
                  background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
         
         -webkit-background-clip: text; 
@@ -18,25 +18,26 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
-      AHFOD {
+      .AHFOD {
          color:rgb(211, 119, 28);
-         star{
+      }
+      .AHFOD > .star{
             color:rgb(234, 67, 22);
          }
-         halfstar{
+      .AHFOD > .halfstar{
                     background-image: linear-gradient(to right, rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22),  rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         -webkit-background-clip: text; 
         background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent; 
                }
-      }
-      MOTS{
+      .MOTS{
          color:rgb(16, 37, 160);
-         star {
+      }
+      .MOTS > .star {
             color:rgb(197, 34, 189);
          }
-         halfstar{
+      .MOTS > .halfstar{
                     background-image: linear-gradient(to right, rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189),  rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -44,13 +45,10 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
                }
-      }
-      KS{
+      .KS{
          color:rgb(7, 31, 178);
-         star {
-            color:rgb(18, 78, 200);
-         }
-         halfstar{
+      }
+      .KS > .halfstar{
          background-image: linear-gradient(to right, rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200),  rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -58,9 +56,11 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
                }
+      .KS > .star{
+            color:rgb(18, 78, 200);
       }
       
-      halfstar {
+      .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -69,7 +69,7 @@
         color: transparent; 
     }
    
-      tracklist{
+      .tracklist {
          font-size:10pt;
          padding:0px
       }
@@ -81,39 +81,38 @@
          <p>I haven't finished ranking tracklistings past A Head Full of Dreams</p>
          <p>I haven't customized the colors for anything past A Head Full of Dreams</p>
          <h1>How I rate things</h1>
-      <p><halfstar>&#9733;</halfstar><nostar>&#9733;&#9733;&#9733;&#9733;</nostar> I <strong>hate</strong> this song/album.</p>
-      <p><star>&#9733;</star><nostar>&#9733;&#9733;&#9733;&#9733;</nostar> I <em>strongly</em> dislike this song/album. </p> 
-      <p><star>&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;&#9733;&#9733;</nostar> I do not like this song/album. </p>
-      <p><star>&#9733;&#9733;</star><nostar>&#9733;&#9733;&#9733;</nostar> This song/album is eh. </p> 
-      <p><star>&#9733;&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;&#9733;</nostar> This song/album is mid.</p>
-      <p><star>&#9733;&#9733;&#9733;</star><nostar>&#9733;&#9733;</nostar> This song/album is okay.</p>
-      <p><star>&#9733;&#9733;&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;</nostar> I like this song/album. </p>
-      <p><star>&#9733;&#9733;&#9733;&#9733;</star><nostar>&#9733;</nostar> I <em>really</em> like this song/album.</p>
-      <p><star>&#9733;&#9733;&#9733;&#9733;</star><halfstar>&#9733;</halfstar> I <strong>love</strong> this song/album.</p>
-      <p><star>&#9733;&#9733;&#9733;&#9733;&#9733;</star> This song/album is <b><i>perfect</i></b>.</p>
-      <p><superstar>&#9733;&#9733;&#9733;&#9733;&#9733;</superstar> I beg you to listen to this song/album; it is <star><b><i>beyond perfect</i></b></star>.</p>
+      <p><halfstar>&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;&#9733;</span> I <strong>hate</strong> this song/album.</p>
+      <p><span class="star">&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;&#9733;</span> I <em>strongly</em> dislike this song/album. </p> 
+      <p><span class="star">&#9733;</span><halfstar>&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;</span> I do not like this song/album. </p>
+      <p><span class="star">&#9733;&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;</span> This song/album is eh. </p> 
+      <p><span class="star">&#9733;&#9733;</span><halfstar>&#9733;</span><span class="nostar">&#9733;&#9733;</span> This song/album is mid.</p>
+      <p><span class="star">&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;&#9733;</span> This song/album is okay.</p>
+      <p><span class="star">&#9733;&#9733;&#9733;</span><halfstar>&#9733;</span><span class="nostar">&#9733;</span> I like this song/album. </p>
+      <p><span class="star">&#9733;&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;</span> I <em>really</em> like this song/album.</p>
+      <p><span class="star">&#9733;&#9733;&#9733;&#9733;</span><halfstar>&#9733;</span> I <strong>love</strong> this song/album.</p>
+      <p><span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span> This song/album is <b><i>perfect</i></b>.</p>
+      <p><superstar>&#9733;&#9733;&#9733;&#9733;&#9733;</superstar> I beg you to listen to this song/album; it is <span class="star"><b><i>beyond perfect</i></b></span>.</p>
    <h1>Elijah's Discography Rankings</h1>
    <p><h2>Coldplay</h2></p>
    <img src="Images/Coldplay/ColdplayBBC071221_(cropped).jpg" width="1200">
    <p><h2>About Coldplay</h2></p>
 <p>Coldplay (as shown from left to right (except for phil)) is a band comprised of Jonny Buckland (guitar), Chirs Martin (vocals & piano), Guy Berryman (bass), William Champion, and Phil Harvey (who is the creative director and doesn't play an instrument)</p>
-<ol reversed><p><h3><li><MOTS>Music of the Spheres <star>&#9733;&#9733;&#9733;</star><nostar>&#9733;&#9733;</nostar></MOTS></h3></li></p>
+<ol reversed><h3>Music of the Spheres <span class="star">&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;&#9733;</span></h3></li>
    <img src="Images/Coldplay/Music_of_the_Spheres.webp" width="300" height="300">
       <p> Music of the Spheres (2021) (Full title being: Music of the Spheres Volume 1: From Earth With Love) is Coldplay's 9th LP. </p>
-  <tracklist><MOTS><p>Music of the Spheres <star>&#9733;&#9733;&#9733;&#9733;</star><nostar>&#9733;</nostar></p>
-   <p>Higher Power <star>&#9733;&#9733;&#9733;&#9733;</star><halfstar>&#9733;</halfstar></p>
-   <p>Humankind <star>&#9733;&#9733;&#9733;&#9733;</star><nostar>&#9733;</nostar></p>
-   <p>Alien Choir <star>&#9733;&#9733;&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;</nostar></p>
-   <p>Let Somebody Go <star>&#9733;&#9733;&#9733;&#9733;</star><nostar>&#9733;</nostar></p>
-   <p>Human Heart <star>&#9733;&#9733;</star><nostar>&#9733;&#9733;&#9733;</nostar></p>
-   <p>People of the Pride <star>&#9733;&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;&#9733;</nostar></p>
-   <p>Biutyful <star>&#9733;</star><nostar>&#9733;&#9733;&#9733;&#9733;</nostar></p>
-   <p>Music of the Spheres II <halfstar>&#9733;</halfstar><nostar>&#9733;&#9733;&#9733;&#9733;</nostar></p>
-   <p>My Universe <star>&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;&#9733;&#9733;</nostar></p>
-   <p>Infinity Sign <star>&#9733;&#9733;&#9733;&#9733;</star><nostar>&#9733;</nostar></p>
-   <p>Coloratura <superstar>&#9733;&#9733;&#9733;&#9733;&#9733;</superstar></p>
-   </MOTS>
-   </tracklist> 
+  <div class="MOTS tracklist"><p>Music of the Spheres <span class="star">&#9733;&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;</span></p>
+   <p>Higher Power <span class="star">&#9733;&#9733;&#9733;&#9733;</span><span class="halfstar">&#9733;</span></p>
+   <p>Humankind <span class="star">&#9733;&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;</span></p>
+   <p>Alien Choir <span class="star">&#9733;&#9733;&#9733;</span><span class="halfstar">&#9733;</span><span class="nostar">&#9733;</span></p>
+   <p>Let Somebody Go <span class="star">&#9733;&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;</span></p>
+   <p>Human Heart <span class="star">&#9733;&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;</span></p>
+   <p>People of the Pride <span class="star">&#9733;&#9733;</span><span class="halfstar">&#9733;</span><span class="nostar">&#9733;&#9733;</span></p>
+   <p>Biutyful <span class="star">&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;&#9733;</span></p>
+   <p>Music of the Spheres II <span class="halfstar">&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;&#9733;</span></p>
+   <p>My Universe <span class="star">&#9733;</span><span class="halfstar">&#9733;</span><span class="nostar">&#9733;&#9733;&#9733;</span></p>
+   <p>Infinity Sign <span class="star">&#9733;&#9733;&#9733;&#9733;</span><span class="nostar">&#9733;</span></p>
+   <p>Coloratura <span class="superstar">&#9733;&#9733;&#9733;&#9733;&#9733;</span class="superstar"></p>
+</div>
 
 
       <p><h3><li><KS>Kaleidoscope <star>&#9733;&#9733;&#9733;</star><halfstar>&#9733;</halfstar><nostar>&#9733;</nostar></KS></h3></li></p>
