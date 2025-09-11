@@ -1,0 +1,167 @@
+     .nostar{
+        color:grey
+     }
+     .bonus{
+      color:pink
+     }
+     .star{
+        color: blue
+        }
+      .superstar{
+                 background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .AHFOD {
+         color:rgb(211, 119, 28);
+      }
+      .AHFOD .star{
+            color:rgb(234, 67, 22);
+         }
+      .AHFOD .halfstar{
+                    background-image: linear-gradient(to right, rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22),  rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22), rgb(234, 67, 22),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+               }
+      .MOTS{
+         color:rgb(16, 37, 160);
+      }
+      .MOTS .star {
+            color:rgb(197, 34, 189);
+         }
+      .MOTS .halfstar{
+                    background-image: linear-gradient(to right, rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189),  rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189), rgb(197, 34, 189),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+               }
+      .KS{
+         color:rgb(7, 31, 178);
+      }
+      .KS .halfstar{
+         background-image: linear-gradient(to right, rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200),  rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200), rgb(18, 78, 200),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+               }
+      .KS .star{
+            color:rgb(18, 78, 200);
+      }
+      .Safety{
+            color:rgb(170, 148, 146)
+      }
+      .Safety .star{
+         color:rgb(41, 24, 14)
+      }
+      .Safety .halfstar{
+                 background-image: linear-gradient(to right, rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14),  rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14), rgb(41, 24, 14),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .BS{
+            color:rgb(119, 167, 196)
+      }
+      .BS .star{
+         color:rgb(139, 55, 55)
+      }
+      .BS .halfstar{
+                 background-image: linear-gradient(to right, rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55),  rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55), rgb(139, 55, 55),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .TBR{
+            color:rgb(82, 105, 162)
+      }
+      .TBR .star{
+         color:rgb(221, 86, 108)
+      }
+      .TBR .halfstar{
+                 background-image: linear-gradient(to right, rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108),  rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108), rgb(221, 86, 108),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+
+      .MM{
+            color: rgb(1, 139, 193)
+      }
+      .MM .star{
+         color:rgb(0, 63, 99)
+      }
+      .MM .halfstar{
+                 background-image: linear-gradient(to right, rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99),  rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99), rgb(0, 63, 99),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .MM .bonus{
+            color:rgb(215, 82, 254)
+      }
+      .MM .bonus .star{
+         color:rgb(251, 5, 12)
+      }
+      .MM .bonus .halfstar{
+                 background-image: linear-gradient(to right, rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12),  rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12), rgb(251, 5, 12),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .halfstar {
+        background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+    }
+   
+      .tracklist {
+         font-size:10pt;
+         padding:0px
+      }
+@media screen and (min-width: 1200px) {
+    ul > li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+   }
+ @media screen and (max-width: 1200px) {
+    ul > li {
+        display: block;
+        margin-right: 15px;
+    }
+ }
+
+ @media screen and (min-width: 1150px) {
+    .tracklist {
+         font-size:12pt;
+         padding:0px;
+    }
+ }
+  @media screen and (min-width: 1150px) {
+    body {
+         font-size:16pt;
+         padding:0px;
+    }
+ }
