@@ -167,13 +167,15 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
     }
-   
+   img{
+      padding-right: 50px;
+   }
       .tracklist {
          font-size:10pt;
          padding:0px
       }
           body {
-         font-size:16pt;
+         font-size:12pt;
          padding:0px;
     }
 @media screen and (min-width: 1200px) {
