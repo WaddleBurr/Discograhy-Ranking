@@ -177,10 +177,10 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
-      .Sunrise .EL .star{
+      .Sunrise .EL .tracklist .star{
          color: rgb(193, 175, 93)
       }
-      .Sunrise .EL .halfstar{
+      .Sunrise .EL .tracklist .halfstar{
                                    background-image: linear-gradient(to right, rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),  rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -190,10 +190,10 @@
 
 
       }
-      .Sunset .EL .star{
+      .Sunset .EL .tracklist .star{
          color: rgb(233, 231, 213)
       }
-      .Sunset .EL .halfstar{
+      .Sunset .EL .tracklist .halfstar{
                                    background-image: linear-gradient(to right, rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213),  rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
