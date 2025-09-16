@@ -217,6 +217,6 @@
          .container {
             display: grid;
             grid-template-columns: 300px auto auto;
-            row-gap:30px
+            gap:30px
         }
       }
