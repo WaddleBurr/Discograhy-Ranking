@@ -128,6 +128,20 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
+      .Mylo{
+            color: rgb(162, 162, 162)
+      }
+      .Mylo .star{
+         color:rgb(210, 32, 72)
+      }
+      .Mylo .halfstar{
+                 background-image: linear-gradient(to right, rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72),  rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
       .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
