@@ -142,6 +142,8 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
+
+      
       .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
