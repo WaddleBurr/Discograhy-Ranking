@@ -160,7 +160,7 @@
             .EL{
             color: rgb(147, 144, 145)
       }
-      .EL .halfstar{
+      .EL .albumtitle .halfstar{
                           background-image: linear-gradient(to right, rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213),  rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -169,7 +169,7 @@
         color: transparent; 
 
       }
-      .EL .star{
+      .EL .albumtitle .star{
                  background-image: linear-gradient(to right, rgb(193, 175, 93), rgb(233, 231, 213));
         
         -webkit-background-clip: text; 
@@ -177,10 +177,10 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
-      .Sunrise .EL .tracklist .star{
+      .Sunrise .EL .star{
          color: rgb(193, 175, 93)
       }
-      .Sunrise .EL .tracklist .halfstar{
+      .Sunrise .EL .halfstar{
                                    background-image: linear-gradient(to right, rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),  rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -190,10 +190,10 @@
 
 
       }
-      .Sunset .EL .tracklist .star{
+      .Sunset .EL .star{
          color: rgb(233, 231, 213)
       }
-      .Sunset .EL .tracklist .halfstar{
+      .Sunset .EL .halfstar{
                                    background-image: linear-gradient(to right, rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213),  rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213), rgb(233, 231, 213),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
@@ -208,6 +208,9 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent; 
+      }
+      .Sunset .EL .bonus  {
+            color: rgb(147, 144, 145) 
       }
       .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
