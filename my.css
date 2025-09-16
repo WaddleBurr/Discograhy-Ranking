@@ -143,6 +143,21 @@
         color: transparent; 
       }
 
+            .PM{
+            color: rgb(160, 126, 71)
+      }
+      .PM .star{
+         color:rgb(175, 186, 148)
+      }
+      .PM .halfstar{
+                 background-image: linear-gradient(to right, rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148),  rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148), rgb(175, 186, 148),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+
       
       .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
@@ -185,6 +200,6 @@
    @media screen and (min-width: 1200px) {
          .container {
             display: grid;
-            grid-template-columns: 300px auto;
+            grid-template-columns: 300px auto auto;
         }
       }
