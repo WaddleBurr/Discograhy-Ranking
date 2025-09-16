@@ -172,6 +172,10 @@
          font-size:10pt;
          padding:0px
       }
+          body {
+         font-size:16pt;
+         padding:0px;
+    }
 @media screen and (min-width: 1200px) {
     ul > li {
         display: inline-block;
@@ -194,6 +198,18 @@
   @media screen and (min-width: 1150px) {
     body {
          font-size:16pt;
+         padding:0px;
+    }
+ }
+   @media screen and (max-width: 1150px) {
+    body {
+         font-size:12pt;
+         padding:0px;
+    }
+ }
+  @media screen and (max-width: 1150px) {
+    .tracklist {
+         font-size:19pt;
          padding:0px;
     }
  }
