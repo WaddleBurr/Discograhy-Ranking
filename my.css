@@ -182,3 +182,10 @@
          padding:0px;
     }
  }
+   @media screen and (min-width: 1200px) {
+         .container {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 15px;
+        }
+      }
