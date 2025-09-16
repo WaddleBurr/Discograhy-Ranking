@@ -128,13 +128,13 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
-      .Mylo{
+      .MyloXyloto{
             color: rgb(162, 162, 162)
       }
-      .Mylo .star{
+      .MyloXyloto .star{
          color:rgb(210, 32, 72)
       }
-      .Mylo .halfstar{
+      .MyloXyloto .halfstar{
                  background-image: linear-gradient(to right, rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72),  rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72), rgb(210, 32, 72),grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
         -webkit-background-clip: text; 
