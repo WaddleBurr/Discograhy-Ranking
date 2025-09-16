@@ -197,7 +197,7 @@
  }
   @media screen and (min-width: 1150px) {
     body {
-         font-size:16pt;
+         font-size:14pt;
          padding:0px;
     }
  }
@@ -209,7 +209,7 @@
  }
   @media screen and (max-width: 1150px) {
     .tracklist {
-         font-size:19pt;
+         font-size:10pt;
          padding:0px;
     }
  }
