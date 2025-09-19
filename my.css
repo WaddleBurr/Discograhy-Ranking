@@ -240,6 +240,123 @@
         -webkit-text-fill-color: transparent;
         color: transparent; 
       }
+      .Parachutes{
+         color: rgb(202, 46, 16)
+      }
+      .Parachutes .star{
+         color:rgb(255, 168, 59)
+      }
+      .Parachutes .halfstar{
+                                   background-image: linear-gradient(to right, rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59),  rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59), rgb(255, 168, 59),rgb(225, 225, 225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .GS{
+         color: rgb(129, 158, 179)
+      }
+      .GS .star{
+         color:rgb(34, 62, 89)
+      }
+      .GS .halfstar{
+                                   background-image: linear-gradient(to right, rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89),  rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89), rgb(34, 62, 89),rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .GS .bonus{
+         color: rgb(164, 172, 176)
+      }
+      .GS .bonus .star{
+         color:rgb(29, 38, 47)
+      }
+      .GS .bonus .halfstar{
+                                   background-image: linear-gradient(to right, rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47),  rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47), rgb(29, 38, 47),rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+
+      }
+            .XandY{
+            color:rgb(4, 136, 71)
+      }
+      .XandY .halfstar{
+                                   background-image: linear-gradient(to right, rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59),  rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59),rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+
+      }
+      .XandY .star{
+         color:rgb(0, 2, 59)
+      }
+      .X .XandY .star{
+         color: rgb(0, 2, 59)
+      }
+      .X .XandY{
+         color: rgb(4, 136, 71)
+      }
+      .X .XandY .halfstar{
+                                   background-image: linear-gradient(to right, rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59),  rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59), rgb(0, 2, 59),rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+
+
+      }
+      .Y .XandY{
+         color: rgb(0, 2, 59)
+      }
+      .Y .XandY .star{
+         color: rgb(4, 136, 71)
+      }
+      .Y .XandY .halfstar{
+                                   background-image: linear-gradient(to right, rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71),  rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71), rgb(4, 136, 71),rgb(225, 225, 225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+      .Y .XandY .bonus .star {
+         color:rgb(2, 97, 48)
+      }
+      .Y .XandY .bonus  {
+         color:rgb(0, 41, 64)
+      }
+      .Y .XandY .bonus .halfstar {
+                  background-image: linear-gradient(to right, rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48),  rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48), rgb(2, 97, 48),rgb(225, 225, 225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+         -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+
+      }
+
+      .Viva{
+         color:rgb(38, 38, 44)
+      }
+      .Viva .star{
+         color:rgb(198, 54, 25)
+      }
+      .Viva .halfstar{
+                                   background-image: linear-gradient(to right, rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25),  rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25), rgb(198, 54, 25),rgb(225, 225, 225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
 
       .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
