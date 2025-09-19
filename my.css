@@ -226,6 +226,21 @@
         color: transparent; 
 
       }
+      .AROBTTH .nostar{
+         color: rgb(225,225,225)
+      }
+      .AROBTTH .star{
+         color: rgb(112, 104, 102)
+      }
+      .AROBTTH .halfstar{
+                                   background-image: linear-gradient(to right, rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102),  rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102), rgb(112, 104, 102),rgb(225, 225, 225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
+        
+        -webkit-background-clip: text; 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent; 
+      }
+
       .halfstar {
         background-image: linear-gradient(to right, blue, blue, blue, blue, blue, blue,  blue, blue, blue, blue, blue, blue,grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey, grey);
         
