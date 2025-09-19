@@ -161,7 +161,7 @@
             color: rgb(147, 144, 145)
       }
       .EL .albumtitle .halfstar{
-                                   background-image: linear-gradient(to right, rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),  rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),black, black, black, black, black, black, black, black, black, black, black, black);
+                                   background-image: linear-gradient(to right, rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),  rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
         
         -webkit-background-clip: text; 
         background-clip: text;
@@ -184,7 +184,7 @@
          color: rgb(151, 145, 149)
       }
       .Sunrise .EL .halfstar{
-                                   background-image: linear-gradient(to right, rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),  rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),black, black, black, black, black, black, black, black, black, black, black, black);
+                                   background-image: linear-gradient(to right, rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),  rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93), rgb(193, 175, 93),rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
         
         -webkit-background-clip: text; 
         background-clip: text;
@@ -200,10 +200,10 @@
          color: rgb(151, 145, 149)
       }
       .EL .nostar{
-         color:rgb(0,0,0)
+         color:rgb(225,225,225)
       }
       .Sunset .EL .halfstar{
-                                   background-image: linear-gradient(to right, rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),  rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),black, black, black, black, black, black, black, black, black, black, black, black);
+                                   background-image: linear-gradient(to right, rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),  rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149), rgb(151, 145, 149),rgb(225, 225, 225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225), rgb(225,225,225));
         
         -webkit-background-clip: text; 
         background-clip: text;
