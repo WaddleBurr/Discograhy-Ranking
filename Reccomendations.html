@@ -2,26 +2,33 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>Discography Rankings</title>
+      <title>Reccomendations</title>
       <link rel="stylesheet" type="text/css" href="my.css">
       <script src="my.js"></script>
    </head>
    <body>
-   <h2>Reccomendations:</h2>
-   <table>
-    <caption>Album Recommendations:</caption>
-    <tr>
-        <th>First Name/Username</th>
+    
+   <h2>Reccomendation Form:</h2>
+  <form id="myForm">
+    Name/Username: <input type="text" id="name" ><br><br>
+    Email: <input type="email" id="email" ><br><br>
+    Artist: <input type="text" id="artistname" required><br><br>
+    Album Name: <input type="text" id="albumname" required><br><br>
+    <button type="submit">Submit</button>
+  </form>
+  <h2>Reccomendations:</h2>
+  <table border="1" id="dataTable">
+    <thead>
+      <tr>
+        <th>Name</th>
         <th>Email</th>
         <th>Artist</th>
         <th>Album</th>
-    </tr>
-    <tr>
-        <td>fname</td>
-        <td>email</td>
-        <td>artist</td>
-        <td>album</td>
-    </tr>
-   </table>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Entries will appear here -->
+    </tbody>
+  </table>
 </body>
 </html>
