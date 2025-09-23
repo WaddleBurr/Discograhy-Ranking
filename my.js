@@ -14,8 +14,8 @@
       const newRow = table.insertRow();
       const nameCell = newRow.insertCell(0);
       const emailCell = newRow.insertCell(1);
-      const artistCell = newRow.insertCell(0);
-      const albumCell = newRow.insertCell(0);
+      const artistCell = newRow.insertCell(2);
+      const albumCell = newRow.insertCell(3);
 
 
       // Fill cells with form data
